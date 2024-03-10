@@ -1,0 +1,12 @@
+[package]
+name = "rust-axum-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.4"
+derive_more = { version = "1.0.0-beta.6", features = ["display", "from"] }
+dotenvy = "0.15.7"
+tokio = { version = "1.36.0", features = ["macros", "rt-multi-thread"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
